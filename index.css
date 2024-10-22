@@ -71,6 +71,7 @@ padding: 9px 9px;
 /* End of Banner section */
 .all-section{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -156,3 +157,16 @@ padding: 9px 9px;
 }
 /*end of web development part */
 /* Start of my inspiration part */
+.inspiration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.video-part > iframe{
+    border-radius: 8px;
+}
+/* End of my inspiration part */
+/* start of my current target part */
+
