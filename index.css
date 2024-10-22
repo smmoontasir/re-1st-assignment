@@ -227,3 +227,72 @@ padding: 9px 9px;
     background: rgba(255, 223, 0, 0.05);
 }
 /* end of my current target part */
+/* start of support section */
+.support{
+    background-image: url(./assets/rsz_handshake.jpg);
+    /* background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(./assets/handshake.jpg); */
+    border-radius: 8px;
+    max-height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    padding: 32px 24px;
+}
+.support-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.support-head{
+     color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.support-sub{
+     color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#int-text{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 4px;
+    background: rgb(255, 255, 255);
+    padding: 9px 10px 9px 10px;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 270px;
+    
+}
+#int-sub{
+    border-radius: 4px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: rgb(255, 255, 255);
+    padding: 8px 10px 8px 10px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 11.5px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.support-field > form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
